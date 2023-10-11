@@ -1,0 +1,23 @@
+/*--variáveis--*/
+:root{
+    /*--paleta de cores--*/
+    --cor-body: #ffffff;
+    --cor-primaria: ;
+    --cor-secundaria: ;
+    --cor-terciaria: ;
+
+    --cor-texto: #0c0c0c;
+    --cor-texto-light: #f3f6fb;
+
+    /*--fontes/tamanho das fontes--*/
+    --font-principal: ;
+    --font-secundaria: ;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
