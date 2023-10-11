@@ -3,8 +3,7 @@
 /*--variáveis--*/
 :root{
     /*--paleta de cores--*/
-    --cor-body: #FAF0E4;
-    --cor-primaria: ;
+    --cor-primaria: #FAF0E4;
     --cor-secundaria: ;
     --cor-terciaria: #1E87BB;
     --cor-texto: #0c0c0c;
@@ -21,4 +20,10 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
 }
