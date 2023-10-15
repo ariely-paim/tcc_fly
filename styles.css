@@ -1,22 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');*/
 
 /*--variáveis--*/
-:root{
+/*:root{
     /*--paleta de cores--*/
-    --cor-primaria: #FAF0E4;
+    /*--cor-primaria: #FAF0E4;
     --cor-secundaria: ;
     --cor-terciaria: #1E87BB;
     --cor-texto: #0c0c0c;
-    --cor-texto-light: #f3f6fb;
+    --cor-texto-light: #f3f6fb;*/
 
-    /*--fontes/tamanho das fontes--*/
+    /*--fontes/tamanho das fontes--
     --font-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
+}--*/
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
+/*--body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+}
+--*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #5bd2ec;
+    /*----cor-secundaria: #F6F6F6;--*/
+    --cor-secundaria:#272727;
+    --cor-terciaria:#00193f;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -25,5 +48,102 @@
 body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
-    color: var(--cor-texto);
+    color: var(--cor-secundaria);
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+    background-color: var(--cor-terciaria);
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    background-color: var(--cor-terciaria);
+}
+.paragrafo{
+ text-align: justify;
+ font-family: var(--fonte-secundaria);
+ color: var(--cor-secundaria);
+
+}
+.custom-container {
+    background-color: var(--cor-terciaria);
+    
+    padding: 30px;
+    /* Outros estilos personalizados aqui */
+}
+.custom-container1{
+    background-color:var(--cor-primaria);
+}
+
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #394faf;
+    text-decoration: none;
+    background-color: var(--cor-terciaria);
+}
+.custom-nav {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-terciaria);
+    /* Outros estilos personalizados aqui */
+}
+.apresentacao__imagem{
+    width: 8%;
+    border-radius: 58px;
+}
+.img_logo{
+    width: 45%;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--cor-terciaria);
+}
+.links__navegacao{ 
+    display: inline-block;
+    justify-content: center;
+    gap: 16px;
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10.5px 5px 5px 5px;
+    text-decoration: none;
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    align-items: center;
+}
+.custom-container{
+    font-size: 1.0rem;
+    font-weight: 300;
+    padding: 21.5px 0;
+    text-decoration: none;
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+
+}
+/*Estilização do form*/
+.form-contanier {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    margin-right: 5px;
+}
+/*Estilização inicial do rodapé*/
+.rodape{
+
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: justify;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
 }
