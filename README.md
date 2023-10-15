@@ -1,5 +1,5 @@
 # tcc_fly
-<h3>Projeto final do curso Meninas In Tech Nordeste da Fly Educação.</h3>
+<h3>Projeto final do curso Meninas In Tech edição Nordeste da Fly Educação e Cultura.</h3>
 Um site informativo para orientar o acolhimento de deficientes auditivos nas empresas.
 
 >Status: Em andamento.
