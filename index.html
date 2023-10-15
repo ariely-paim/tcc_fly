@@ -1,112 +1,84 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <style>
-        body{font-family: Arial, Helvetica, sans-serif;}.content{display: flex;justify-content: center;}.contato{width: 100%;max: width 500px; ;}.form{display: flex;flex-direction:column;}.field{padding: 10px;margin-bottom: 15px;border: 1px solid #b8bac4; border-radius:5px;font-family: Arial, Helvetica, sans-serif;font: 16px;}textarea{height: 150px;}
-    </style>
-</head>
-<body>
-    <section class="content">
-        <div class="contato">
-            <h3>Mande uma mensagem</h3>
-            <form class="form" method="POST" action="./email.php">
-                <input class="field" name="name" placeholder="Nome">
-                <input class="field" name="email" placeholder="E-mail">
-                <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui"></textarea>
-                <input class="field" type="submit" value="Enviar">
-            </form>
-        </div>
-    </section>
-</body>
-=======
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CessibTech</title>
-  <!-- icon -->
-  <link rel="shortcut icon" type="images/ico" href="assets/icon_logo.ico">
-  <!-- css -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body>
-  <header>
-    <!--Usando Navbar do bootstrap-->
-    <nav class="navbar navbar-dark bg-light">
-      <a href="teste.html">LOGO - COLOCAR</a>
-      <a href="index.html">Home</a>
+<body class="body">
+  <header class="custom-container1">
+    <!--Usando Navbar do bootstrap e utilizando estilos aplicados-->
+    <nav class="navbar navbar-expand-lg navbar-light custom-nav cabecalho cabecalho__menu">
+      <img class="apresentacao__imagem" src="./assets/teste.png" alt="logo_cessibtech">
+      <a class="cabecalho__menu__link" href="index.html">Home</a>
       <a class="cabecalho__menu__link" href="sobrenos.html">Sobre nós</a>
       <a class="cabecalho__menu__link" href="blog.html">Blog</a>
       <a class="cabecalho__menu__link" href="contato.html">Contato</a>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-primary" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
       </form>
     </nav>
   </header>
-  <main>
-    <section>
-      <div>
-        <h5>BANNER</h5>
-        <p>imagem + frase de impecato</p>
-      </div>
+  <main class="custom-container1">
+    <section class="custom-container1">
+
+      <h5>BANNER</h5>
+      <p>imagem + frase de impecato</p>
+
     </section>
     <!--Usando grid para organizar conteúdos em colunas (2col)-->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="" alt="Logo do site">
-        </div>
-        <div class="col">
-          <p class="contato__texto">
-          <p> O CessibTech é um site que disponibiliza conteúdos de
-            acessibilidade para que você possa utilizar na sua empresa</p>
+    <section>
+      <div class="container custom-container1">
+        <div class="row">
+          <div class="col">
+            <img class="img_logo" src="./assets/logo_site.png" alt="logo_cessibtech">
+          </div>
+          <div class="col">
+            <p class="paragrafo"> O CessibTech é um site que disponibiliza conteúdos de
+              acessibilidade para que você possa utilizar na sua empresa</p>
+          </div>
         </div>
       </div>
-    </div>
-
+    </section>
+    <!--Parte da parceria-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h5>Parceria:</h5>
+          </div>
+          <div class="col">
+            <img src="./assets/logo_fly.png" alt="Logo da Fly"></p>
+          </div>
+          <div class="col">
+            <p class="paragrafo">A Fly Educação e Cultura é uma é uma ONG dedicada a capacitar pessoas
+              através da educação socioemocional e formação profissional em tecnologia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <!--Usando grid para organizar conteúdos em colunas (3col)-->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h5 class="contato__titulo">Parceiros:</h5>
-      </div>
-      <div class="col">
-        <img src="./assets/logo_fly.png" alt="Logo da Fly"></p>
-      </div>
-      <div class="col">
-        <p class="contato__texto">
-        <p>A Fly Educação e Cultura é uma é uma ONG dedicada a capacitar pessoas
-          através da educação socioemocional e formação profissional em tecnologia.</p>
-      </div>
-    </div>
-  </div>
   <!--Footer da página com as redes sociais-->
-  <footer>
-    <ul class="ul">
-      <li><a href="https://www.instagram.com/flyeducacao/">
+  <footer class="rodape">
+
+    <!--Parte das redes sociais-->
+    <ul class="apresentacao_links">
+      <li class="links__navegacao"><a href="https://www.instagram.com/flyeducacao/">
           <img src="./assets/instagram.png">Instagram</a>
       </li>
-      <li> <a href="https://www.linkedin.com/company/flyeducacao/">
+      <li class="links__navegacao"> <a href="https://www.linkedin.com/company/flyeducacao/">
           <img src="./assets/linkedin.png">LinkedIn</a>
       </li>
-      <li><a href="https://www.facebook.com/flyeducacao">
+      <li class="links__navegacao"><a href="https://www.facebook.com/flyeducacao">
           <img src="">Facebook</a>
       </li>
     </ul>
-    <p>© CessibTech 2023 - Todos os direitos resevados</p>
+    <hr />
+    <p class="paragrafo">© CessibTech 2023 - Todos os direitos reservados</p>
   </footer>
 </body>
-
->>>>>>> f17823e94d77dc691ea2191412ad8900b27badca
-</html>
