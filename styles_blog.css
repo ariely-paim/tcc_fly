@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+:root {
+    --cor-container: #1E87BB;
+    --cor-secundaria: #66bbe6;
+    --cor-texto: #0c0c0c;
+    --cor-texto-light: #f3f6fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+    min-height: 440px;
+    background-color: var(--cor-container);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__texto {
+    color: var(--cor-texto-light);
+    text-align: center;
+}
+
+.banner__title {
+    font-size: 3.5rem;
+}
+
+.banner__subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*filtro de pesquisa*/
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.filtro__item{
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.active__filtro{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-light);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+/*posts*/
+.post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.post__box{
+    background: var(--cor-texto-light);
+    box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+.post__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.categoria{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--cor-secundaria);
+}
+
+.post__titulo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--cor-texto);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post__data{
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.post__descricao{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post__link a{
+    color: var(--cor-texto);
+    overflow: hidden;
+}
+
+.post__link a:hover{
+    color: var(--cor-container);
+    transition: all ease 0.3s;
+}
