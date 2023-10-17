@@ -3,7 +3,7 @@
 :root {
     --cor-container: #1E87BB;
     --cor-secundaria: #66bbe6;
-    --cor-terciaria: #f5f5f5;
+    --cor--terciaria: #f5f5f5;
     --cor-quaternaria: #ffffff;
     --cor-texto: #0c0c0c;
     --cor-texto-light: #f8f8f9;
@@ -131,7 +131,7 @@ p {
 
 /*time*/
 .time {
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor--terciaria);
     scroll-margin-top: 15rem;
 }
 
