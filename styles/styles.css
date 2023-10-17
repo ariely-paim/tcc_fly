@@ -57,6 +57,7 @@ body {
 }
 
 .banner__texto {
+    font-family: var(--fonte-secundaria);
     color: var(--cor-texto-light);
     text-align: center;
 }
