@@ -5,6 +5,7 @@
     --cor-secundaria: #a9d7e2;
     --cor-terciaria: #062b64;
     --cor-letra: #000000;
+    --cor-texto-light: #f8f8f9;
 
     --color-neutral-0: #66bbe6;
     --color-neutral-10: #1E87BB;
@@ -49,7 +50,7 @@ body {
 .banner {
     width: 100%;
     min-height: 440px;
-    background-color: var(--cor-container);
+    background-color: var(--color-neutral-10);
     display: grid;
     justify-content: center;
     align-items: center;
