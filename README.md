@@ -67,6 +67,7 @@ Kamilla Nordes é uma mulher cisgênero, nordestina, negra e deficiente auditiva
   - Ser aceita por ser quem é.
 
 <h4>Melhorias do site</h4>
+
 - Adicão de recursos de acessibilidade no site.
 - Integração com o banco de dados.
 - Adição de mais materiais.
