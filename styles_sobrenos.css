@@ -37,6 +37,30 @@ h1 {
     color: var(--text-color);
 }
 
+/*banner*/
+.banner {
+    width: 100%;
+    min-height: 440px;
+    background-color: var(--cor-container);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__texto {
+    color: var(--cor-texto-light);
+    text-align: center;
+}
+
+.banner__title {
+    font-size: 3.5rem;
+}
+
+.banner__subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /*about*/
 .max-width {
     width: 100%;
