@@ -147,6 +147,8 @@ section {
 .post__link a {
     color: var(--cor-texto);
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
 }
 
 .post__link a:hover {
