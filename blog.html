@@ -10,28 +10,36 @@
   <!-- css -->
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles_blog.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!--biblioteca de icones-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--biblioteca de icones-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light custom-nav cabecalho cabecalho__menu">
-    <img class="apresentacao__imagem" src="./assets/logo_azul.png" alt="logo_cessibtech">
-    <a class="cabecalho__menu__link" href="index.html">Home</a>
-    <a class="cabecalho__menu__link" href="sobrenos.html">Sobre nós</a>
-    <a class="cabecalho__menu__link" href="blog.html">Blog</a>
-    <a class="cabecalho__menu__link" href="contato.html">Contato</a>
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Pesquisar">
-      <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
-    </form>
-  </nav>
-
+  <header>
+    <!--Menu de navegação utilizando bootstrap-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid custom-container-fluid">
+        <a class="navbar-brand" href="#">
+          <img height="64" src="assets/logo_azul.png" alt="Logo">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobrenos.html">Sobre nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Pesquisar">
+          <button class="search-button" type="submit">Pesquisar</button>
+        </div>
+      </div>
+    </nav>
+  </header>
   <section class="banner" id="banner">
     <div class="banner__texto container">
       <h1 class="banner__title">CessibTech Blog</h1>
