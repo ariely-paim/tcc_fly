@@ -1,3 +1,34 @@
+:root {
+    --cor-container: #1E87BB;
+    --cor-secundaria: #66bbe6;
+    --cor-texto: #0c0c0c;
+    --cor-texto-light: #f8f8f9;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+    min-height: 440px;
+    background-color: var(--cor-container);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__texto {
+    color: var(--cor-texto-light);
+    text-align: center;
+}
+
+.banner__title {
+    font-size: 3.5rem;
+}
+
+.banner__subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /*estilização contato*/
 .container {
     width: 100vw;
