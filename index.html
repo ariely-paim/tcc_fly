@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,22 +13,26 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body class="body">
-  <header class="custom-container1">
-    <!--Usando Navbar do bootstrap e utilizando estilos aplicados-->
-    <nav class="navbar navbar-expand-sm navbar-light custom-nav cabecalho cabecalho__menu">
-      <img class="apresentacao__imagem" src="./assets/logo_azul.png" alt="logo_cessibtech">
-      <a class="cabecalho__menu__link" href="index.html">Home</a>
-      <a class="cabecalho__menu__link" href="sobrenos.html">Sobre nós</a>
-      <a class="cabecalho__menu__link" href="blog.html">Blog</a>
-      <a class="cabecalho__menu__link" href="contato.html">Contato</a>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
-      </form>
-    </nav>
-  </header>
+  <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo_azul.png" alt="Logo">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobrenos.html">Sobre nós</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Digite o que você procura">
+                <button class="search-button" type="submit">Pesquisar</button>
+            </div>
+        </div>
+    </header>
   <main class="apresentacao">
     <section class="apresentacao__conteudo">
       <h6 class="apresentacao__conteudo__titulo">
@@ -38,7 +41,6 @@
       </h6>
     </section>
     <img class="img_acessibilidade" src="./assets/acessibilidade.png" alt="acessibilidade">
-
   </main>
   <section class="apresentacao">
     <img class="img_logo" src="./assets/logo_site.png" alt="logo_cessibtech">
