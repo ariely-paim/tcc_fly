@@ -14,13 +14,21 @@ Utilizando:
 ##
 
 <h4>Ficha da Persona</h4>
-- NOME: Kamilla Nordes
-- IDADE: 28 anos
-- GÊNERO: Mulher cis
-- COR: Negra
-- ESCOLARIDADE: Graduada em Marketing
-- EMPREGABILIDADE: Marketing digital especialista em Analytics 
-- ESPECIFICIDADE: Ela é muito determinada, resiliente, responsável, autêntica e criativa
+
+- NOME: 
+Kamilla Nordes
+- IDADE: 
+28 anos
+- GÊNERO: 
+Mulher cis
+- COR: 
+Negra
+- ESCOLARIDADE: 
+Graduada em Marketing
+- EMPREGABILIDADE: 
+Marketing digital especialista em Analytics 
+- ESPECIFICIDADE: 
+Ela é muito determinada, resiliente, responsável, autêntica e criativa
 - DESCREVENDO ELA EM UM MINI PARÁGRAFO: 
 Kamilla Nordes é uma mulher cisgênero, nordestina, negra e deficiente auditiva, de 28 anos que reside em Crato/CE. Se formou em Marketing com 26 anos, logo após se especializou em Analytics. Apesar de gostar da área, e alguns meses após sua formação ter tido sua primeira experiência real no mercado de trabalho, não se identificou. Está atualmente em transição de carreira para área de back-end, buscando oportunidade de emprego. Por ser deficiente auditiva, uma das maiores dificuldades no trabalho é o esforço para ser compreendida, se comunicar e se relacionar com os colegas de trabalho.
 
