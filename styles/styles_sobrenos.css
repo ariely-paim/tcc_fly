@@ -214,6 +214,7 @@ p {
     transform: scale(1.2);
 }
 
+/*media queires*/
 @media screen and (min-width:768px) {
     .time {
         padding: 1em;
